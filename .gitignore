@@ -1,0 +1,33 @@
+# dependencies
+node_modules/
+**/node_modules/
+
+# env & local
+.env
+.env.*
+*.env
+**/.env
+**/.env.*
+.DS_Store
+
+# build outputs
+.next/
+**/.next/
+dist/
+out/
+coverage/
+.turbo/
+.vercel/
+
+# contracts build
+contracts/artifacts/
+contracts/cache/
+contracts/typechain-types/
+contracts/deploy_log.txt
+
+# frontend build
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.vercel/
+
