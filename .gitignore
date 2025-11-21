@@ -31,3 +31,7 @@ frontend/.next/
 frontend/out/
 frontend/.vercel/
 
+
+# npm cache
+.npm-cache/
+**/.npm-cache/
